@@ -5,6 +5,9 @@
   text-align: center;
   background-color: #fff9fb;
   font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-image: url(/src/assets/img/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: 190px;
 }
 
 .home-title {

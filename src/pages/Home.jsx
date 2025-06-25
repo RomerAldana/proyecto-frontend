@@ -4,7 +4,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home-container">
-      <h1 className="home-title">¡Bienvenido a "          "! <span className="cupcake-icon">🧁</span></h1>
+      <h1 className="home-title">¡Bienvenido a la reposteria" Migdalis Tortas "! <span className="cupcake-icon">🧁</span></h1>
       <p className="home-subtitle">Donde cada bocado es un momento de felicidad</p>
       
       <p className="welcome-message">

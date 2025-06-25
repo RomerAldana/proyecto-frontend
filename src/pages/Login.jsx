@@ -47,6 +47,7 @@ export default function Login() {
   };
 
   return (
+  <div className="login-container"> 
     <form onSubmit={submit} className="login-form">
       <h2 className="login-title">Iniciar Sesión</h2>
       
@@ -81,10 +82,12 @@ export default function Login() {
       <button type="submit" className="login-button">
         Ingresar
       </button>
-
+      
       <Link to="/" className="back-button">
         Volver al Inicio
       </Link>
+      
     </form>
+  </div>
   );
 }

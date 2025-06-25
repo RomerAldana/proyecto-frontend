@@ -64,6 +64,7 @@ export default function Register() {
   };
 
   return (
+  <div className="register-container">
     <form onSubmit={submit} className="register-form">
       <h2 className="register-title">Registrarse</h2>
       
@@ -119,5 +120,6 @@ export default function Register() {
         Volver al Inicio
       </Link>
     </form>
+  </div>
   );
 }

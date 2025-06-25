@@ -4,6 +4,7 @@ import About from './pages/About'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import { Link } from 'react-router-dom'
+import './Navbar.css';
 
 function App() {
   return (

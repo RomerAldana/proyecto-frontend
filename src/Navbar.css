@@ -1,0 +1,18 @@
+nav{
+    background-color: #dcc9f8;
+    padding: 1rem;
+}
+nav a {
+    color: #d65db1; 
+    background-color: transparent; 
+    padding: 5px 10px; 
+    text-decoration: none;
+    transition: all 0.3s ease; 
+    border-radius: 4px; 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+nav a:hover {
+    color: #000000;
+    background-color: #d65db1; 
+}
