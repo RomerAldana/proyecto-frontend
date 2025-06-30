@@ -16,3 +16,63 @@ nav a:hover {
     color: #000000;
     background-color: #d65db1; 
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #cea0f9;
+    padding: 5px 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.logo {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 1px;
+    border-radius: 15px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-links a:hover {
+    background: #da5ef3;
+    color: #fff;
+}
+
+.cart-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 6px 10px;
+    border-radius: 50%;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.cart-btn:hover {
+    background: #cf50e9;
+}
